@@ -1,6 +1,5 @@
-# Motor Vibration Analysis and Correlation Application (College Project - Datascience)
+# Motor Vibration Analysis and Correlation Application
 
-## Project Description
 This project performs an analysis of motor vibration records, focusing on anomaly detection and determining the motor's condition and quality. The Python script reads acceptable vibration patterns and the dataset, calculates the correlation, splits the data into different batches, and classifies them into:
 - Vibration OK
 - Warning
