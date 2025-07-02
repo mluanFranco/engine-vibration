@@ -1,18 +1,18 @@
-# Análise de Vibração de Motor e Aplicação de Correlação (Projeto de Faculdade - Datascience)
+# Motor Vibration Analysis and Correlation Application (College Project - Datascience)
 
-## Descrição do Projeto
-Este projeto realiza a análise dos registros de vibração de um motor, com foco na identificação de anomalias, e determinação de estado e qualidade do mesmo. O script em python realiza a leitura dos padrões de vibração aceitáveis e do dataset, calcula a correlação, divi os dados em diferentes pacotes e os classifica em:
-- Vibração Ok
-- Atenção
-- Anomalia
+## Project Description
+This project performs an analysis of motor vibration records, focusing on anomaly detection and determining the motor's condition and quality. The Python script reads acceptable vibration patterns and the dataset, calculates the correlation, splits the data into different batches, and classifies them into:
+- Vibration OK
+- Warning
+- Anomaly
 
-Para determinar seu estado final, em um motor ruim que precisa de revisão, ou em um motor em bom estado.
+To determine its final state, identifying whether the motor is in poor condition and needs maintenance, or if it is in good condition.
 
-## Datasets Utilizados para Análise
+## Datasets Used for Analysis
 - [PADRAOVIBRACAOMOTORSTREAM009CC.txt](dataset/PADRAOVIBRACAOMOTORSTREAM009CC.txt)
 - [VIBRACAOMOTORSTREAM009CC.txt](dataset/VIBRACAOMOTORSTREAM009CC.txt)
 
-## Plotagem de Gráficos do Estado do Motor
-![Vibração](images/vibracao.png)
-![Padrão](images/padrao.png)
-![Anomalia](images/anomalia.png)
+## Motor Condition Graph Plotting
+![Vibration](images/vibracao.png)
+![Pattern](images/padrao.png)
+![Anomaly](images/anomalia.png)
